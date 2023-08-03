@@ -7,8 +7,8 @@
 | printf("Hello world"); | print!("Hello world"); | Just like in C, statements in Rust are delimited with semicolons (";"). However, Rust programmers traditionally use macros instead of functions when dealing with variadic arguments. At the moment of writing, C-style variadic functions in Rust are supported only for compatibility with C. |
 | print("Hello world\n"); | print!("Hello world\n"); | Just like in C, string literals in Rust can contain a "\n" escaped sequence that corresponds to a new line. |
 
-## Side by side of hello world programs
+## Side by side comparison of programs
 
-![hello world programs](https://i.imgur.com/w9lXVGh.png)
+![side-by-side comparison of programs](https://i.imgur.com/w9lXVGh.png)
 
 Note that in the Rust counterpart there is no single [`use` declaration](https://doc.rust-lang.org/reference/items/use-declarations.html), which are usually responsible for importing items. In Rust, most popular items from a standard library are re-exported to [`std::prelude`](https://doc.rust-lang.org/std/prelude/index.html), which is then implicitly imported into every module by default.

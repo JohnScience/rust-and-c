@@ -4,3 +4,9 @@
 | sheepCount = 0; | sheep_count = 0; | Initialization (the first assignment with some value) of a variable with some constant value is identical |
 | sheepCount = sheepCount + 2 * 2; | sheep_count = sheep_count + 2 * 2; | Assignment of an expression to a variable is identical as well. |
 | printf("There are %d sheeps in the pen.\n", sheepCount); | print!("There are {} sheeps int the pen.\n", sheep_count); | In Rust, printing values doesn't require format specifiers (like "%d"). Instead, "{}" placeholders are used. |
+
+## Side by side comparison of programs
+
+![side-by-side comparison of programs](https://i.imgur.com/Fj3NsDy.png)
+
+Note that Rust doesn't require the use of `%d` format specifier but requires the `mut` keyword in `let mut sheep_count`. Also notice different naming conventions for variables.

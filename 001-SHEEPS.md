@@ -9,4 +9,9 @@
 
 ![side-by-side comparison of programs](https://i.imgur.com/Fj3NsDy.png)
 
-Note that Rust doesn't require the use of `%d` format specifier but requires the `mut` keyword in `let mut sheep_count`. Also notice different naming conventions for variables.
+Note that
+
+* Rust doesn't explicitly mention the type.
+* Rust doesn't require the format specifiers (e.g. `%d`).
+* Rust requires to opt-in to mutability with `mut` keyword.
+* Rust uses snake_case for variable names, while C uses camelCase.

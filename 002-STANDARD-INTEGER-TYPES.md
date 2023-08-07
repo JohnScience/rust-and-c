@@ -19,6 +19,7 @@ Previously, we defined and initialized a variable in two statements. However, it
 | signed char short int int long long long | c_schar c_short c_int c_long c_longlong | Rust's way to refer to the standard integer C types are shorter while remaining just as readable. Even though due to the use of let keyword the gains are not as noticeable, let keyword greatly simplifies parsing of Rust code and makes writing code with more complex types much simpler. |
 | unsigned char unsigned short unsigned int unsigned long unsigned long long | c_uchar c_ushort c_uint c_ulong c_ulonglong | ditto |
 | %hhd %hd %d %ld %lld %hhu %hu %u %lu %llu | {} | Thanks to the powerful macro system, Rust can greatly simplify the printing of various values. In Rust, you rarely if ever have to worry about specifying the formatting. And when you do, you don't have to manually do this. Notably, difficult formatting specifiers are some of the reasons why fixed-width integers are less common in C. |
+| printf("...\n"); | println!("..."); | Rust has a println macro that automatically appends a newline character at the end of the line. In C, you have to use printf and manually add a newline character at the end of the line. This can make reading the literal text easier by removing the visual clutter in the form of newline character ("\n") part. |
 
 ## Side by side comparison of programs
 
@@ -27,6 +28,7 @@ Previously, we defined and initialized a variable in two statements. However, it
 Note that:
 
 * Without fitting definitions and initializations on a single line, it wouldn't be possible to fit the programs on a single screen.
-* Rust promotes the use of more robust, fixed-width types.
+* Rust promotes the use of more robust and inuitive fixed-width types.
 * Type names for standard integer types are shorter in Rust.
 * Rust simplifies printing of values.
+* In Rust you have a println macro that automatically appends a newline character at the end of the line. In C, you have to use printf and manually add a newline character at the end of the line. The

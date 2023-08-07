@@ -1,3 +1,5 @@
+# Hello world comparison
+
 | C | Rust | Comparison |
 |---|---|---|
 | #include <stdio.h> | use std::io::*; | Unlike in C, importing items in Rust is done with a statement instead of a macro. It is better for the compile times, is fool-proof from linking errors, and is more ergonomic for writing software components because there's no need to add include guards. In addition, in Rust you can explicitly name the items that you want to import, which makes the code much easier to read. |

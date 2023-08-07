@@ -28,7 +28,7 @@ Previously, we defined and initialized a variable in two statements. However, it
 Note that:
 
 * Without fitting definitions and initializations on a single line, it wouldn't be possible to fit the programs on a single screen.
-* Rust promotes the use of more robust and inuitive fixed-width types.
+* Rust promotes the use of more robust and intuitive fixed-width types.
 * Type names for standard integer types are shorter in Rust.
 * Rust simplifies printing of values.
 * Rust simplifies reading of literal text by providing a macro that automatically appends a newline character at the end of the line.

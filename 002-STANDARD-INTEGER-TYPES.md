@@ -5,7 +5,7 @@ In this context, "standard integer types" are either
 * *standard signed integer types*, which are `signed char`, `short int`, `int`, `long int`, and `long long int`, or
 * *standard unsigned integer types*, which are `unsigned char`, `unsigned short int`, `unsigned int`, `unsigned long int`, and `unsigned long long int`
 
-as defined in the C standard. Since C was created at the time when 8-bit bytes were not yet ubiquitous, they are not even required to be 8-bit wide, though in practice they nearly always are. Precise sizes of these types are implementation-defined, but the C standard often has more to say about each of them.
+as defined in the [C standard](https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1256.pdf) (6.2.5, page 33). Since C was created at the time when 8-bit bytes were not yet ubiquitous, they are not even required to be `8*2^n`-bit wide, though in practice they nearly always are. Precise sizes of these types are implementation-defined, but the C standard often has more to say about each of them.
 
 C has become so influential that its types are often used in other languages as well, for example, for the purpose of interoperability.
 

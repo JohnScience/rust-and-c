@@ -31,4 +31,4 @@ Note that:
 * Rust promotes the use of more robust and inuitive fixed-width types.
 * Type names for standard integer types are shorter in Rust.
 * Rust simplifies printing of values.
-* In Rust you have a println macro that automatically appends a newline character at the end of the line. In C, you have to use printf and manually add a newline character at the end of the line. The
+* Rust simplifies reading of literal text by providing a macro that automatically appends a newline character at the end of the line.
